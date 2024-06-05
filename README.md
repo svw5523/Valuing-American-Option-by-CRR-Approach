@@ -8,6 +8,8 @@ The binomial approach also known as lattice approach can be used to value wide-r
 
 As proposed by Cox, Ross, Rubinstein, this method divides the time until option maturity into discrete intervals and presumes that, during each of these intervals, the price of the asset — e.g., the stock — follows a binomial process moving from its initial value, S, to Su (with probability p) or Sd (with probability 1-p). Given this set of share prices, the call/put can be valued by working backwards from maturity.
 
+
+
 ### Python code to reproduce the Cox, Russ, and Rubinstein Binomial Model
 
 Inspired by the Cox, Russ, and Rubinstein (1979) binomial Model (CRR Model), this python notebook builds a simple and generalized pricing framework for the American call/put option by working in backwardation.
