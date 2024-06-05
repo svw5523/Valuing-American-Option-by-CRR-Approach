@@ -6,9 +6,7 @@ The binomial approach is a discrete valuation model for European/American option
 
 The binomial approach also known as lattice approach can be used to value wide-range of general derivative securities and also to obtain exact formula by taking the limit in which the binomial tree converges to a continuum.
 
-As proposed by Cox, Ross, Rubinstein, this method divides the time until option maturity into discrete intervals and presumes that, during each of these intervals, the price of the asset — e.g., the stock — follows a binomial process moving from its initial value, S, to Su (with probability p) or Sd (with probability 1-p). Given this set of share prices, the call/put can be valued by working backwards from maturity.
-
-
+As proposed by Cox, Ross, Rubinstein, this method divides the time until option maturity into discrete intervals and presumes that, during each of these intervals, the price of the asset — e.g., the stock — follows a binomial process moving from its initial value, S, to Su (with probability p) or Sd (with probability 1-p). Given this set of share prices, the call/put can be valued by working backwards from maturity. [links here](https://medium.com/@polanitzer/cox-ross-rubinstein-1979-binomial-model-predict-european-and-american-options-prices-c0902039a951).
 
 ### Python code to reproduce the Cox, Russ, and Rubinstein Binomial Model
 
