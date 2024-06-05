@@ -1,4 +1,4 @@
-# Valuing American Option by CRR Model
+# Valuing American Option by CRR Binomial Model
 
 ### Introduction
 
@@ -10,7 +10,7 @@ As proposed by Cox, Ross, Rubinstein, this method divides the time until option 
 
 ### Python code to reproduce the Cox, Russ, and Rubinstein Binomial Model
 
-Inspired by the Cox, Russ, and Rubinstein (1979) binomial Model (CRR Model), this python notebook builds a simple and generalized pricing framework for the American call/put option by working in backwardation.
+Inspired by the Cox, Russ, and Rubinstein (1979) binomial Model (CRR Binomial Model), this python notebook builds a simple and generalized pricing framework for the American call/put option by working in backwardation.
 
 Generate the underlying stock price paths by binomial lattice implementation.
 
